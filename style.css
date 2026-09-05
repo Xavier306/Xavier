@@ -1,0 +1,149 @@
+body{
+  width: 100%;
+  margin: 0px;
+  background-color:#FFEFDF;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  } 
+  .navbar{
+  position:absolute;
+                top:0;
+                height: 10vh;
+                width: 100%;
+                background-image:url('elements/Navbar_Bard.png');
+                background-size: 100% 100%;
+                z-index: 2;
+                box-sizing:border-box;
+            }
+            .navbar button{
+                position:absolute;
+                width: 15vw;
+                padding:2vh 2vw;
+                box-sizing:border-box;
+                color:#201302;
+                border: 0px;
+                appearance: none;
+                background-color: transparent;
+                background-repeat: no-repeat;
+                background-size:100% 100%;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                font-family: "Audiowide", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .navBarContainer{
+                position:relative;
+                width:100%;
+                height:100%;
+                padding:2vh 2vw;
+                box-sizing:border-box;
+            }
+            .homeButton{
+                background-image:url('elements/Navbar_Button1.png');
+                height: 6vh;
+                font-size: 5.5vh;
+            }
+            .infoButton{
+                background-image:url('elements/Navbar_Button.png');
+                height: 5.75vh;
+                font-size: 4.75vh;
+                left: 14vw;
+            }
+            .aboutButton{
+                background-image:url('elements/Navbar_Button.png');
+                height: 5.375vh;
+                font-size: 4.25vh;
+                left: 26vw;
+            }
+            .hr{
+                position:absolute;
+                top: 65vh;
+                border: 5px solid rgb(83, 57, 22);
+                border-radius:10%;
+                width: 70%; 
+            }
+            .header{
+                position:absolute;
+                top:4vh;
+                display: flex;
+                justify-content: center;
+                background-image:url('elements/Header_Background.png');
+                background-size: 100% 100%;
+                height:60vh;
+                width: 100%;
+                z-index:1;
+            }
+            .headerTitle{
+                position:absolute;
+                top:8vh;
+                left: 15vw;
+                display: flex;
+                justify-content: center;
+                background-image:url('elements/Header_TitleBG.png');
+                background-size: 100% 100%;
+                height:36vh;
+                width:36vw;
+                box-sizing:border-box;
+                padding:3vh 4vw;
+            }
+            .headerContainer{
+                position:relative;
+                height:100%;
+                width:100%;
+            }
+            .e{
+                margin:0px;
+                color:white;
+                font-family: "Protest Revolution", sans-serif;
+                font-weight: 100;
+                font-size: 6.20vw;
+                font-style: normal;
+                line-height:1;
+            }
+            .content{
+                width:80%;
+                height: 80vh;
+                background:#a88275;
+                position: absolute;
+                top:75vh;
+                border-radius: 30px;
+            }
+.contentContainer{
+  position: relative;
+  box-sizing: border-box;
+  padding: 4vh 2.5vw;
+  box-sizing:border-box;
+  width:100%;
+  height:100%;
+  }
+.contentImage{
+  position:absolute;
+  width:50%;
+  height: auto;
+  border-radius:20px;
+}
+.construction{
+  position: absolute;
+  top: 40vh;
+  width: 50vw;
+  height: 40vh;
+}
+.contentText{
+  position:absolute;
+  left: 45vw;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  padding: 2vh 2vw;
+  border-width: 10px 0;
+  border-style: solid;
+  border-color: rgb(83, 57, 22);
+  background:white;
+  box-sizing:border-box;
+  width: 32vw;
+  height:auto;
+  border-radius:20px;
+}
